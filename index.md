@@ -49,7 +49,7 @@ options:
     quotagroups delete:  delete quotagroups
 ```
 
-###5. Ready for next steps?
+### 5. Ready for next steps?
 
 It it works, continue to next step. If not, installany additional pre-requisites.
 
@@ -65,4 +65,6 @@ This is needed only for TLS but doesn’t hurt to put it in now to prepare for T
 * "ZSTG_LDAP_TRUSTSTORE_PASS": "",
 * "LDAP_SSL_ENABLED": "true",
 
-## 
+## Configure & install Data Privacy Passports on HPVS 
+
+
