@@ -7,18 +7,21 @@
 1. Go to the client machine.
 
 2. Go to the directory with all the downloaded files.
+
 :computer: We defined earlier /dpp. So issue the following command:
 ```
 cd /dpp
 ```
 
 3. Create a hpvs-vars.json file from one of the templates.
+
 :computer: As example, you can reuse and copy the hpvs-vars-small.json file. Please issue the following command:
 ```
 cp hpvs-vars-small.json hpvs-vars.json
 ```
 
 4. Test the dpp-manager. 
+
 :computer: Please, issue the following command.
 ```
 python3 dpp-manager.py help
