@@ -4,23 +4,23 @@
 
 ## Set up the Data Privacy Passports Manager utility
 
-1. Go to the client machine.
+### 1. Go to the client machine.
 
-2. Go to the directory with all the downloaded files.
+### 2. Go to the directory with all the downloaded files.
 
 :computer: We defined earlier /dpp. So issue the following command:
 ```
 cd /dpp
 ```
 
-3. Create a hpvs-vars.json file from one of the templates.
+### 3. Create a hpvs-vars.json file from one of the templates.
 
 :computer: As example, you can reuse and copy the hpvs-vars-small.json file. Please issue the following command:
 ```
 cp hpvs-vars-small.json hpvs-vars.json
 ```
 
-4. Test the dpp-manager. 
+### 4. Test the dpp-manager. 
 
 :computer: Please, issue the following command.
 ```
@@ -49,9 +49,20 @@ options:
     quotagroups delete:  delete quotagroups
 ```
 
-5. It it works, continue to next step. If not, installany additional pre-requisites.
+###5. Ready for next steps?
+
+It it works, continue to next step. If not, installany additional pre-requisites.
 
 
 ## Configure the Data Privacy Passports Manager utility JSON
+
+Update the hypvs-vars.json file according to your environment (see doc)
+
+Add SSL Enablement And LDAP Truststore Password Envars.  
+
+This is needed only for TLS but doesn’t hurt to put it in now to prepare for TLS)
+
+* "ZSTG_LDAP_TRUSTSTORE_PASS": "",
+* "LDAP_SSL_ENABLED": "true",
 
 ## 
